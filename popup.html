@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <style>
+      body{
+        width:300px;
+      }
+      button{
+        width:30px;
+        height:30px;
+        margin-left: 5px;
+      }
+      #submit{
+        width:30%;
+        float:right;
+      }
+      #changeColor{
+        background-color: #000;
+      }
+    </style>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.simple-color.js"></script>
+  </head>
+  <body>
+    <p>履歴</p>
+    <div id="buttonDiv">
+    </div>
+    <div>
+      <p>色の指定が完了したら適用をクリックしてください。</p>
+    </div>
+    <input class="simple_color" id="colorCode">
+    <button id="submit">適用</button>
+  </body>
+  <script src="popup.js"></script>
+</html>
